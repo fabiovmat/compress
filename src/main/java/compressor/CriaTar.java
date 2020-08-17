@@ -30,7 +30,7 @@ public class CriaTar {
             e.printStackTrace();
         }
 
-        System.out.println("Done");
+        System.out.println("Arquivo Compactado!");
 
     }
 
@@ -46,7 +46,7 @@ public class CriaTar {
             for (Path path : paths) {
 
                 if (!Files.isRegularFile(path)) {
-                    throw new IOException("Support only file!");
+                    throw new IOException("Suporta apenas um arquivo!");
                 }
 
                 TarArchiveEntry tarEntry = new TarArchiveEntry(
