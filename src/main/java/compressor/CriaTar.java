@@ -18,7 +18,7 @@ public class CriaTar {
     public static void main(String[] args) {
 
         try {
-        		//
+        		
             Path path1 = Paths.get("C:\\Users\\fabio\\Documents\\Estudos\\Java\\compress\\src\\main\\resources\\test\\sitemap.xml");
             Path path2 = Paths.get("C:\\Users\\fabio\\Documents\\Estudos\\Java\\compress\\src\\main\\resources\\test\\file.txt");
             Path output = Paths.get("C:\\Users\\fabio\\Documents\\Estudos\\Java\\compress\\src\\main\\resources\\test\\output.tar.gz");
